@@ -10,7 +10,9 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+.h3{
+  visibility: hidden;
+}
 .container {
   text-align: center;
   /* width: 50%; */
@@ -53,15 +55,24 @@ body {
     padding: 20px; /* prevent content from touching edges */
     height: auto; /* allow scroll if needed */
   }
-
+  .h3{
+    font-size: 1rem;
+  }
   .container {
     width: 100%;
     max-width: 100%;
   }
 
   .title {
-    font-size: 0.5rem;          /* smaller but still readable */
+    font-size: 9rem;          /* smaller but still readable */
     margin-bottom: 80px;
+  }
+  
+  .two{
+    visibility: hidden;
+  }
+  .one {
+    font-size: 2.5rem;
   }
 
   .menu {
