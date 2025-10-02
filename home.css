@@ -10,8 +10,8 @@ body {
   align-items: center;
   height: 100vh;
 }
-.h3{
-  visibility: hidden;
+.ok{
+  display: none;
 }
 .container {
   text-align: center;
@@ -55,8 +55,10 @@ body {
     padding: 20px; /* prevent content from touching edges */
     height: auto; /* allow scroll if needed */
   }
-  .h3{
-    font-size: 1rem;
+  .ok {
+    display: block; /* show on mobile */
+    font-size: 1rem; /* optional: adjust size */
+    margin-bottom: 20px; /* optional: spacing */
   }
   .container {
     width: 100%;
