@@ -47,14 +47,33 @@ body {
 }
 
 /* Responsive */
+/* Responsive: Mobile adjustments */
 @media (max-width: 600px) {
+  body {
+    padding: 20px; /* prevent content from touching edges */
+    height: auto; /* allow scroll if needed */
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .title {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+    font-size: 0.9rem;          /* smaller but still readable */
+    margin-bottom: 80px;
+  }
+
+  .menu {
+    gap: 40px;
   }
 
   .menu-btn {
-    font-size: 0.9rem;
-    padding: 15px;
+    font-size: 1rem;
+    padding: 20px;
+    width: 100%;              /* full width on mobile */
+    max-width: 300px;         /* but not too stretched */
+    margin: 0 auto;           /* center buttons */
   }
 }
+
